@@ -1,0 +1,37 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*Esta classe é aplicada para que todos os elementos possuam a mesma cor e fonte . Ao alterar todos os elementos do site mudam de cor*/
+.cor {
+background-color: #2a2c32;
+color: white
+}
+
+.btn{
+    color: white;
+    text-align: left;
+}
+
+.logo{
+width: 100%;
+}
+
+.list-group-item{
+  margin-top: 10px;  
+}
+
+
+th{
+    font-size: 15px;
+    background-color: #2a2c32;
+    color: white
+}
+
+form{
+
+position: absolute;
+top: 50%;
+left: 15%;
+
+}

@@ -1,0 +1,33 @@
+Segue instruções para execução do arquivo :
+
+
+Criação do banco :
+
+
+
+Create table usuario
+ 
+(
+    Nome_Completo text,
+    CPF int,
+    Sexo text,
+    Setor text,
+    E_mail text,
+    Telefone_Fixo int,
+    Telefone_Celular int,
+    Usuario text,
+    Senha text
+)
+
+
+Após a criação do banco deve verificar se a conexão está correta . A conexão é feita no arquivo conectabd.php entre as linhas 3 e 8
+
+
+
+
+
+
+* Por escolha do desenvolvedor as opções de criação , listagem , exclusão e leitura estão em guias separadas
+* A validação de dados contém uma linha adicional onde mesmo que o usuário digite os dados incorretamente o acesso será autorizado . Tal permissão foi feita para facilitar a validação. O arquivo que contém a linha adicional é o conectabd.php
+* Como o login não está sendo realizado a opção de sair apenas direciona para a pagina inicial 
+* A titulo de validação nenhum dado foi colocado como único 
